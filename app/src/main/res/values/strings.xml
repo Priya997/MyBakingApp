@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Baking App</string>
+    <string name="stepslabel">Steps</string>
+    <string name="previousvideo">Previous</string>
+    <string name="nextvideo">Next</string>
+    <string name="viewingridients">Click For Ingridients</string>
+    <string name="mainimagerecipe">MainImageRecipe</string>
+    <string name="appwidget_text">Prudhvi</string>
+    <string name="add_widget">Add widget</string>
+    <string name="configure">Configure</string>
+    <string name="no_receipe_selected">No Receipe Selected</string>
+    <string name="add_to_widget">Add To Widget</string>
+    <string name="please_add_a_receipe_to_show_on_widget">Please add a receipe to show on widget</string>
+
+    <string name="click_to_add">Click to Add</string>
+</resources>

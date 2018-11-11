@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/ingredient"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="15sp"
+        tools:text="Ingredient Name"
+        android:textColor="@color/darkblack" />
+
+    <TextView
+        android:id="@+id/quantity"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="12sp"
+        tools:text="Ingredient Quanity"
+        android:layout_below="@+id/ingredient"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/measure"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        tools:text="Ingredient Measure"
+        android:textSize="12sp"
+        android:layout_below="@+id/ingredient"
+        android:layout_toEndOf="@+id/quantity"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/quantity" />
+</RelativeLayout>
